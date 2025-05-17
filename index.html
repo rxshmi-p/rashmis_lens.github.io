@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      margin: 0;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      object-fit: cover;
+      border: 3px solid #0077b6;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+
+    .section {
+      background: #e0f7fa;
+      padding: 1rem 2rem;
+      margin: 1rem 0;
+      border-radius: 1rem;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .section-title {
+      font-weight: bold;
+      color: #0077b6;
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 500px) {
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to my GitHub Page</h1>
-    <p>This is a basic GitHub Page template.</p>
+
+  <img src="baybridge.jpeg" alt="My photo" />
+  <h1>Hi 👋🏼, I'm Rashmi</h1>
+
+  <div class="section">
+    <div class="section-title">Where I work</div>
+    <div>Capgemini</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">What I'm drinking</div>
+    <div> 🌹 rose cardamom latte from  </div>
+    <div> 
+        <a href="https://comptonscoffeehouse.com/" target="_blank" style="color: #0077b6; text-decoration: none;">Compton's Coffee House</a>
+    </div>
+  </div>
+
+  
+  <div class="section">
+    <div class="section-title">What I'm listening to</div>
+    <div>
+        <iframe style="border-radius:12px" 
+        src="https://open.spotify.com/embed/playlist/4k1Rcb1NBFUYat0c8DWOSs?utm_source=generator" 
+        width="100%" height="80" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy"></iframe>    
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title">What I'm reading</div>
+    <div><em>The Silent Patient</em></div>
+  </div>
+  
+
 </body>
 </html>
-
